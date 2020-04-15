@@ -1,0 +1,5 @@
+dark grey - #535353
+lighter grey - #959595
+beige - #c7bdb3
+pink - #f9bab8
+aqua - #8ccecc
