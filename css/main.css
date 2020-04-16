@@ -1,5 +1,6 @@
 html {
   font-family: "Work Sans", sans-serif;
+  color: #535353;
 }
 
 h1 {
@@ -14,9 +15,25 @@ a {
 nav a:hover {
   color: #fff;
   background-color: #8ccecc;
+  border-radius: 5px;
 }
 
 nav a:active {
   color: #fff;
   background-color: #f9bab8;
+  border-radius: 5px;
+}
+
+.banner {
+  min-height: 16em;
+}
+
+.btn {
+  background-color: #959595;
+  border-radius: 5px;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: #535353;
 }
