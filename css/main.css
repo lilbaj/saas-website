@@ -25,7 +25,8 @@ nav a:active {
 }
 
 .banner {
-  min-height: 16em;
+  max-height: 26em;
+  overflow: hidden;
 }
 
 .btn {
@@ -36,10 +37,6 @@ nav a:active {
 
 .btn:hover {
   background-color: #535353;
-}
-
-.card {
-  max-width: 15em;
 }
 
 .card-pink {
@@ -79,4 +76,20 @@ nav a:active {
 
 .btn-beige:hover {
   background-color: #a8998a;
+}
+
+.content-shrink {
+  align-self: flex-start;
+}
+
+.rev-1 {
+  color: #f9bab8;
+}
+
+.rev-2 {
+  color: #8ccecc;
+}
+
+.rev-3 {
+  color: #c7bdb3;
 }
