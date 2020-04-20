@@ -2,27 +2,32 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>artCHAT</title>
+  <title>Features & Pricing</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,400i,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
+  </ul>
+
   <header role="banner" class="grid grid-middle">
     <h1 class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2 max-length text-center unit-content-center push-0">
-      <i class="icon i-48">
-        <img src="images/icon-4.svg" alt="flower icon">
+      <i class="icon i-48 embed embed-1by1">
+        <img class="embed-item" src="images/icon-4.svg" alt="flower icon">
       </i>
       <span class="yotta icon-label">artCHAT</span>
       <i class="icon i-48">
         <img src="images/icon-4.svg" alt="flower icon">
       </i>
     </h1>
-    <nav class="unit xs-1 s-1 m-1 l-1 xl-1 unit-content-center push-1-2">
+    <nav role="navigation" id="nav" class="unit xs-1 s-1 m-1 l-1 xl-1 unit-content-center push-1-2">
       <ul class="grid list-group">
         <li class="unit xs-1 s-1-2 m-1-2 l-1-4 text-center island-1-2"><a class="island-1-2" href="index.html">Homepage</a></li>
         <li class="unit xs-1 s-1-2 m-1-2 l-1-4 text-center island-1-2"><a class="island-1-2" href="tour.html">Features & Prices</a></li>
@@ -32,7 +37,7 @@
     </nav>
   </header>
 
-  <main>
+  <main role="main" id="main">
     <section class="banner relative">
       <img class="img-flex" src="images/banner-img.jpg" alt="picture of headphones and keyboard on desk">
       <div class="pin-lc w-1 gutter-2">
@@ -91,7 +96,7 @@
       <table class="push" id="pricing">
         <caption class="push-1-2 not-italic bold peta text-center">Plan Prices</caption>
         <thead>
-          <tr class="giga table-head">
+          <tr class="giga">
             <th class="push-r-1-4 column" scope="col">Features</th>
             <th class="push-r-1-4 column" scope="col">Basic</th>
             <th class="push-r-1-4 column" scope="col">Student</th>
@@ -101,42 +106,42 @@
         </thead>
         <tbody>
           <tr>
-            <th class="table-features" scope="row">Price</th>
+            <th scope="row">Price</th>
             <td>Free</td>
             <td>$3.99</td>
             <td>$5.99</td>
             <td>$10.99</td>
           </tr>
           <tr>
-            <th class="table-features" scope="row">Video Calling</th>
+            <th scope="row">Video Calling</th>
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
           </tr>
           <tr>
-            <th class="table-features" scope="row">Messaging</th>
+            <th scope="row">Messaging</th>
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
           </tr>
           <tr>
-            <th class="table-features" scope="row">People Per Call</th>
+            <th scope="row">People Per Call</th>
             <td>4</td>
             <td>5</td>
             <td>7</td>
             <td>10</td>
           </tr>
           <tr>
-            <th class="table-features" scope="row">File Editing</th>
+            <th scope="row">File Editing</th>
             <td>No</td>
             <td>Yes</td>
             <td>Yes</td>
             <td>Yes</td>
           </tr>
           <tr>
-            <th class="table-features" scope="row">Screen Sharing</th>
+            <th scope="row">Screen Sharing</th>
             <td>No</td>
             <td>Yes</td>
             <td>Yes</td>
@@ -149,7 +154,7 @@
 
   <footer role="contentinfo" class="grid footer">
     <div class="unit xs-1 s-1 m-1-4 l-1-4 pad-t text-center">
-      <h4 class="push-0">artCHAT</h4>
+      <h3 class="push-0">artCHAT</h3>
     </div>
 
     <ul class="unit xs-1 s-1 m-1-2 l-1-2 list-group pad-t text-center">
@@ -173,7 +178,7 @@
     </ul>
 
     <ul class="unit xs-1 s-1 m-1-4 l-1-4 list-group-inline text-center pad-t">
-      <li class="">
+      <li>
         <a class="gutter-1-2" href="https://www.facebook.com/">
           <i class="icon i-20">
             <img src="images/facebook-logo.svg" alt="Facebook logo">

@@ -2,27 +2,32 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>artCHAT</title>
+  <title>Sign Up/Login</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,400i,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li><a href="#main">Skip to main content</a></li>
+    <li><a href="#nav">Skip to navigation</a></li>
+  </ul>
+
   <header role="banner" class="grid grid-middle">
     <h1 class="unit xs-1 s-1 m-1 l-1 xl-1 island-1-2 max-length text-center unit-content-center push-0">
-      <i class="icon i-48">
-        <img src="images/icon-4.svg" alt="flower icon">
+      <i class="icon i-48 embed embed-1by1">
+        <img class="embed-item" src="images/icon-4.svg" alt="flower icon">
       </i>
       <span class="yotta icon-label">artCHAT</span>
       <i class="icon i-48">
         <img src="images/icon-4.svg" alt="flower icon">
       </i>
     </h1>
-    <nav class="unit xs-1 s-1 m-1 l-1 xl-1 unit-content-center push-1-2">
+    <nav role="navigation" id="nav" class="unit xs-1 s-1 m-1 l-1 xl-1 unit-content-center push-1-2">
       <ul class="grid list-group">
         <li class="unit xs-1 s-1-2 m-1-2 l-1-4 text-center island-1-2"><a class="island-1-2" href="index.html">Homepage</a></li>
         <li class="unit xs-1 s-1-2 m-1-2 l-1-4 text-center island-1-2"><a class="island-1-2" href="tour.html">Features & Prices</a></li>
@@ -32,8 +37,8 @@
     </nav>
   </header>
 
-  <main role="main" id="sign-un" class="wrapper">
-    <section class="push-1-2">
+  <main role="main" id="main" class="wrapper">
+    <section class="push-1-2" id="sign-up">
       <h2 class="island-1-2 text-center push-0">
         <i class="icon i-48">
           <img src="images/icon-4.svg" alt="flower icon">
@@ -45,25 +50,25 @@
       </h2>
     </section>
 
-    <form class="grid" action="index.html" method="POST">
+    <form class="grid" action="https://formspree.io" method="POST">
       <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push-1-2">
         <label for="name">Name</label>
-        <input id="name" type="text" name="name">
+        <input id="name" type="text" name="name" required>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push-1-2">
         <label for="email">Email</label>
-        <input id="email" type="email" name="email">
+        <input id="email" type="email" name="email" required>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push-1-2">
         <label for="password">Password</label>
-        <input id="password" type="password" name="password">
+        <input id="password" type="password" name="password" required>
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push">
         <label for="confirm">Confirm Password</label>
         <input id="confirm" type="password" name="confirm password">
       </div>
       <div class="unit xs-1 s-1 m-1 l-1 text-center push">
-        <button class="btn btn-pink" type="button" name="button">Sign Up</button>
+        <button class="btn btn-pink" type="submit">Sign Up</button>
       </div>
     </form>
 
@@ -79,24 +84,24 @@
       </h2>
     </section>
 
-    <form class="grid push" action="index.html" method="POST">
+    <form class="grid push" action="https://formspree.io" method="POST">
       <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push-1-2">
         <label for="email-2">Email</label>
         <input id="email-2" type="email" name="email">
       </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2 push">
-        <label for="password">Password</label>
-        <input id="password" type="password" name="password">
+        <label for="password-login">Password</label>
+        <input id="password-login" type="password" name="password">
       </div>
       <div class="unit xs-1 s-1 m-1 l-1 text-center push">
-        <button class="btn btn-aqua" type="button" name="button">Login</button>
+        <button class="btn btn-aqua" type="submit">Login</button>
       </div>
     </form>
   </main>
 
   <footer role="contentinfo" class="grid footer">
     <div class="unit xs-1 s-1 m-1-4 l-1-4 pad-t text-center">
-      <h4 class="push-0">artCHAT</h4>
+      <h3 class="push-0">artCHAT</h3>
     </div>
 
     <ul class="unit xs-1 s-1 m-1-2 l-1-2 list-group pad-t text-center">
@@ -120,7 +125,7 @@
     </ul>
 
     <ul class="unit xs-1 s-1 m-1-4 l-1-4 list-group-inline text-center pad-t">
-      <li class="">
+      <li>
         <a class="gutter-1-2" href="https://www.facebook.com/">
           <i class="icon i-20">
             <img src="images/facebook-logo.svg" alt="Facebook logo">

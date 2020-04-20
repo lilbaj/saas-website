@@ -30,6 +30,7 @@ nav a:active {
 }
 
 .btn {
+  color: #222;
   background-color: #959595;
   border-radius: 5px;
   border: 0;
@@ -82,21 +83,9 @@ nav a:active {
   align-self: flex-start;
 }
 
-.rev-1 {
-  color: #f9bab8;
-}
-
-.rev-2 {
-  color: #8ccecc;
-}
-
-.rev-3 {
-  color: #c7bdb3;
-}
-
 .footer {
   color: #fff;
-  background-color: #c7bdb3;
+  background-color: #535353;
 }
 
 .foot-link {
@@ -112,14 +101,10 @@ nav a:active {
   margin-right: auto;
 }
 
-.table-head {
-  color: #f9bab8;
-}
-
-.table-features {
-  color: #8ccecc;
-}
-
 .column {
   min-width: 6em;
+}
+
+.embed-1by1 {
+  padding-top: 0;
 }
