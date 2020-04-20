@@ -103,3 +103,15 @@ nav a:active {
   margin-left: auto;
   margin-right: auto;
 }
+
+.table-head {
+  color: #f9bab8;
+}
+
+.table-features {
+  color: #8ccecc;
+}
+
+.column {
+  min-width: 6em;
+}
