@@ -99,6 +99,14 @@ nav a:active {
   background-color: #c7bdb3;
 }
 
+.foot-link {
+  color: #fff;
+}
+
+.foot-link:hover {
+  color: #535353;
+}
+
 .width-fix {
   margin-left: auto;
   margin-right: auto;
